@@ -41,14 +41,14 @@ const Home = () => {
           {/* Text Content */}
           <div className="max-w-3xl space-y-6 flex-1 pt-32">
             <h1
-              className={`text-4xl md:text-6xl font-bold font-robotoMono ${
+              className={`text-4xl md:text-5xl font-bold font-robotoMono ${
                 language === "ar" ? "text-right" : "text-left"
               }`}
             >
               {t("heroHeader")}
             </h1>
             <p
-              className={`text-xl text-base-content/70 font-firaCode ${
+              className={`text-lg text-base-content/70 font-firaCode ${
                 language === "ar" ? "text-right" : "text-left"
               }`}
             >
