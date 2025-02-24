@@ -20,7 +20,7 @@ const AiPrinciples = () => {
         <div className="mx-auto px-4">
           <div className="max-w-3xl space-y-6">
             <h1
-              className={`text-4xl md:text-6xl font-bold font-robotoMono ${
+              className={`text-4xl md:text-5xl font-bold font-robotoMono ${
                 language === "ar" ? "text-right" : "text-left"
               }`}
             >
